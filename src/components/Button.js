@@ -1,3 +1,4 @@
+// Button.js
 
 import React from "react";
 
@@ -8,9 +9,9 @@ function Button(props) {
     
     return (
         <button type = "button" onClick={handleSubmit}>
-            Display Giphy's
-        </button>
+            Display Giphy 
+        </button> 
     );
 }
-
+<br></br>
 export default Button;
